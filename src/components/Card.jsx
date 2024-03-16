@@ -1,8 +1,15 @@
 import clsx from "clsx";
 
 export default function Card(props){
+
+    //function clickHandler(event){
+        //onsole.log("Hola ", event);
+    //}
+
     return (
         <article 
+        onClick={props.onClick}
+        //onMouseOver={() => console.log("Mouse over")}
             //className={
             //"bg-[rgb(32_33_39)] p-6 rounded-xl space-y-4" +
             //" " +
